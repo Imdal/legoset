@@ -24,6 +24,7 @@ public class Main {
         minifigs.add(new Minifig(2,"Imperial Mudtrooper"));
         minifigs.add(new Minifig(1,"Imperial Pilot"));
         minifigs.add(new Minifig(1,"Mimban Stormtrooper"));
+        legoset.setMinifigs(minifigs);
 
         legoset.setWeight(new Weight(0.89,"kg"));
         legoset.setUrl(new URL("https://brickset.com/sets/75211-1/Imperial-TIE-Fighter"));
